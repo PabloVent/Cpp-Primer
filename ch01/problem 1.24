@@ -1,0 +1,14 @@
+// have you thought about a different solution for your problem 1.23 in chap 1?
+
+int _tmain(int argc, _TCHAR* argv[]){
+
+	Sales_item sales_item;
+	Sales_item sum;
+	while (cin >> sales_item) {
+		sum += sales_item;
+		cout << sales_item << endl;
+	}
+	cout << sum << endl;
+	
+	return 0;
+	}
